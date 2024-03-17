@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-demo-btp"
+  region: "eu10"
+  stage: "DEV"
+  orgUnit: "B2C"
+  costCenter: "9876543210"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
